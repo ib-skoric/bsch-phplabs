@@ -8,10 +8,20 @@
 </head>
 <body>
     <?php
-    // Q1
+        // Q1
         $string = "The quick brown jumps.";
         $brown = " brown";
         echo substr_replace($string, $brown, 9, 0);
+        
+        echo "<br/>";
+
+        //Q2
+        $fruit = array('orange', 'apple', 'mango', 'banana');
+        sort($fruit);
+        foreach ($fruit as $frt) 
+        {
+            echo ucsfirst($frt) . "<br/>";
+        }
     ?>
 </body>
 </html>
