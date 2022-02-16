@@ -20,8 +20,13 @@
         sort($fruit);
         foreach ($fruit as $frt) 
         {
-            echo ucsfirst($frt) . "<br/>";
+            echo ucfirst($frt) . "<br/>";
         }
+
+        // Q3 
+        $samplestring = "230037";
+        $endstring = substr($samplestring, 0,1) . ":" . substr($samplestring, 2,3) . ":" . substr($samplestring, 4,5);
+        echo $endstring
     ?>
 </body>
 </html>
