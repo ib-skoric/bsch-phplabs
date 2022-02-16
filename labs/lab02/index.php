@@ -10,8 +10,8 @@
     <?php
     // Q1
         $string = "The quick brown jumps.";
-        $brown = "brown"
-        echo substr_replace($string, $brown, 9, 0)
+        $brown = " brown";
+        echo substr_replace($string, $brown, 9, 0);
     ?>
 </body>
 </html>
